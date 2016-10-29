@@ -250,7 +250,7 @@ body.home .logo {
     -webkit-animation-delay: 0;
     -webkit-animation-timing-function: ease-out;
     animation-name: bounceball;
-    animation-duration: 1s;
+    animation-duration: .2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-delay: 0;
@@ -3321,5 +3321,12 @@ span.wpcf7-not-valid-tip {
     text-transform: uppercase;
     margin: 0 0 5px;
     line-height: 1em;
-    font-size: 180px !important;
+    font-size: 180px;
+}
+.sub-title p{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.small{
+    font-size: 120px !important;
 }
